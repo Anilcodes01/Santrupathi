@@ -33,3 +33,11 @@ body {
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font-poppins);
+}
