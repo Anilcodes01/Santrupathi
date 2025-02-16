@@ -1,5 +1,6 @@
 import Section from "@/components/HeroComponents/first_section/Section";
 import SecSection from "@/components/HeroComponents/second_section/Section";
+import ThirdSection from "@/components/HeroComponents/third_section/Third_section";
 
 export default function Home() {
   return (
@@ -9,6 +10,10 @@ export default function Home() {
       </div>
       <div>
         <SecSection />
+      </div>
+
+      <div>
+        <ThirdSection />
       </div>
     </div>
   );
