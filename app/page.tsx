@@ -4,7 +4,7 @@ import ThirdSection from "@/components/HeroComponents/third_section/Third_sectio
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-32 w-full min-h-screen pb-20 bg-white ">
+    <div className="flex flex-col gap-32 w-full min-h-screen pb-20 bg-yellow-100 ">
       <div>
         <Section />
       </div>
