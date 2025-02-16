@@ -4,7 +4,7 @@ import Navigations from "./navigations";
 
 export default function Navbar() {
   return (
-    <div className="flex px-4 justify-between h-16 items-center bg-white">
+    <div className="flex px-4 justify-between h-16 items-center hide-scrollbar bg-white">
       <Logo />
       <Navigations />
       <Avatar />
